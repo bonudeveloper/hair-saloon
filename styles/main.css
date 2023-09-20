@@ -1,0 +1,383 @@
+/* header */
+#main-header {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    background: transparent;
+}
+.home li:hover {
+    color:#FBB034 ;
+}
+#showcase {
+    min-height: 700px;
+    height: 120vh;
+    background-image: url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.master {
+    position: absolute;
+    right: 0;
+    top: 24%;
+}
+.intro-text {
+    padding-top: 28%;
+}
+
+/* header end */
+
+/* about-us */
+#about-us {
+    background-color: #f6f6f6;
+    min-height: 700px;
+    height: 70vh;
+    background-image: url(../images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.about-us-images {
+    position: relative;
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 600px;
+}
+ .boy {
+    position: absolute;
+    right: 0;
+    top: 20%;
+} 
+.mask {
+    position: absolute;
+    top: 47%;
+    right: 0;
+}
+.glass {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+} 
+.about-us-text a{
+    margin-top: 10%;
+    display: inline-block;
+} 
+/* about-us end*/
+
+/* booking */
+#booking {
+    height: 80vh;
+    /* background-color: aqua; */
+    background-image: url(../images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.booking-text a {
+    margin-top: 5%;
+    display: inline-block;
+}
+.call-now{
+    width: 320px;
+    height: 283px;
+    background-color: white;
+    padding-top: 4%;
+}
+.call-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:  #E8E8E8;
+    padding-top: 14%;
+    margin-left: 35%;
+    margin-bottom: 4%;
+}
+/* booking end*/
+
+/* workout */
+#workout {
+    height: 80vh;
+    background-color: #f6f6f6;
+    display:flex ;
+    align-items: center;
+}
+.workout-text {
+    width: 573px;
+    height: 393px;
+    background-color: #FBB034;
+    padding-left: 5%;
+    padding-top: 5%;
+    position: relative;
+}
+.masterg {
+    width: 573px;
+    height: 393px;
+}
+.monday {
+    border-bottom: 2px dotted black;
+    width: 367px;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.friday {
+    border-bottom: 2px dotted black;
+    width: 367px;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.booking-btn {
+    border: 1px solid black;
+    color: black;
+    margin-top: 7%;
+}
+.workout-text h3 {
+    font-size: 32px;
+}
+.workout-text .open {
+    font-weight: 800;
+    font-size: 18px;
+}
+.work {
+    position: absolute;
+    left: 30%;
+    font-family: Jost;
+    font-size: 64px;
+    top: 8%;
+    font-weight: 700;
+    opacity: 0.2;
+    color: rgb(141, 137, 137);
+    
+}
+.days {
+    position: relative;
+}
+/* workout end*/
+
+/* testimonials */
+#testimonials {
+    height: 97vh;
+    background-color: #f6f6f6;
+    display:flex ;
+    align-items: center;
+    position: relative;
+}
+.clients {
+    width: 320px;
+    height: 295px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 1px 2px 4px 0px rgba(0, 0, 0, 0.10), 2px 6px 6px 0px rgba(0, 0, 0, 0.09), 5px 14px 9px 0px rgba(0, 0, 0, 0.05), 9px 25px 10px 0px rgba(0, 0, 0, 0.01), 13px 38px 11px 0px rgba(0, 0, 0, 0.00);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.client {
+    width: 80px;
+    height: 80px;
+    
+}
+.mark {
+    width: 158px;
+    height: 116px;
+    position: absolute;
+}
+.tool {
+    width: 292px;
+    height: 282px;
+    position: absolute;
+    right: 0;
+    top: 57%;
+}
+.adwise {
+    font-size: 13px;
+    margin-block: 6%;
+    padding-left: 8%;
+}
+.testimonial-text a {
+    display: inline-block;
+    margin-top: 7%;
+}
+.test {
+    position: absolute;
+    left: 20%;
+    font-family: Jost;
+    font-size: 64px;
+    top: 20%;
+    font-weight: 700;
+    opacity: 0.2;
+    color: rgb(141, 137, 137);
+}
+/* testimonials end*/
+/* partners */
+#partners {
+    height: 30vh;
+    min-height: 462px;
+    background-image: url(../images/investors.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+}
+.partners-intro p {
+    color: #FBB034;
+font-family: Jost;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 106.5%; /* 19.17px */
+}
+.partners-intro h2 {
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 94.5%; /* 34.02px */
+text-transform: capitalize;
+margin-top: 2%;
+}
+.partners-intro a {
+    display: inline-block;
+    margin-top: 5%;
+}
+/* partners end*/
+
+/* footer */
+footer {
+    background-color: black;
+    position: relative;
+    height: 80vh;
+}
+hr {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.btn-get a {
+    display: inline-block;
+}
+.btn-get p {
+    color: #FFF;
+
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.3px;
+}
+.sah {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.sah ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.help {
+    padding-bottom: 6%;
+}
+.sah h3 {
+    color: #FBB034;
+
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.232px;
+}
+.sah li {
+    color: #FFF;
+
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.205px;
+}
+.email-intro p {
+    color: #FFF;
+
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.3px;
+margin-bottom: 5%;
+
+}
+.input {
+    width: 289px;
+    height: 49px;
+    border-bottom: 1px solid darkgray;
+   z-index: 1;
+    position: relative;
+
+}
+input {
+    width: 100%;
+    padding: 16px;
+    height: 100%;
+    background-color: transparent;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.submit {
+    position: absolute;
+    z-index: 2;
+    left: 28%;
+    top: 63.5%;
+}
+.icons {
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+    margin-top: 5%;
+}
+/* footer end */
+.preload {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    animation: load 6s linear forwards;
+}
+@keyframes load {
+    from {
+        display: flex;
+    }
+    to {
+        display: none;
+    }
+}
+.loading {
+
+    
+}
+.dot-pulse {
+   /* position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  */
+    
+}
+
+@media (max-width: 1220px) {
+    #main-header .navbar .flex {
+        display: none;
+    }
+}
+@media (max-width:1050) {
+    .navbar {
+        display: none;
+    }
+
+}
